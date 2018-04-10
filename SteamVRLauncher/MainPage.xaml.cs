@@ -23,7 +23,7 @@ namespace SteamVRLauncher
         private async void GetRecentlyPlayedGames()
         {
             System.Uri endURI = new Uri("http://localhost:3000"); // Windows.Security.Authentication.Web.WebAuthenticationBroker.GetCurrentApplicationCallbackUri();
-            string startURL = "https://steamcommunity.com/openid"; // /?client_id=1B6A6494CBCC9A890399C4F9E1A2997D&response_type=token&scope=read_stream" + "&redirect_uri=" + Uri.EscapeDataString("https://localhost.com"); // endURI.AbsoluteUri);
+            string startURL = "https://steamcommunity.com/openid"; 
             System.Uri startURI = new System.Uri(startURL);
 
             string result;
@@ -56,13 +56,6 @@ namespace SteamVRLauncher
                 // Authentication failed. Handle parameter, SSL/TLS, and Network Unavailable errors here. 
                 result = ex.Message;
             }
-            //HttpClient c = new HttpClient();
-            //HttpRequestMessage req = new HttpRequestMessage(HttpMethod.Get, "https://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/?key=AF180717A746D13DA1C0CFFC54F0AF06&steamid=76561198007662579&format=json");
-            //var resp = await c.SendAsync(req);
-            //if (resp.IsSuccessStatusCode)
-            //{
-            //    var body = await resp.Content.ReadAsStringAsync();
-            //}
         }
 
         private async void LaunchSteamVR()
