@@ -11,7 +11,7 @@ You have two choices to install:
 you know how to do that.
 - If you don't want to build the code yourself.
     1. download the .zip file from the Release tab and unzip it. The zip file contains two files, the certificate needed in the next step and the App bundle. Remeber where you unzipped the contents, you will need the files in the next steps.
-    1. Follow these instructions to side load App (I have condensed the instructions below, you can follow either the link or my instructions below):  https://docs.microsoft.com/en-us/windows/application-management/sideload-apps-in-windows-10
+    1. Follow these instructions to side load App (I have condensed the instructions below, you can follow either the link or my instructions below):  https://docs.microsoft.com/en-us/windows/application-management/sideload-apps-in-windows-10#how-do-i-sideload-an-app-on-desktop
 
         To turn on sideloading for unmanaged devices:
 
