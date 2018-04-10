@@ -21,7 +21,7 @@ you know how to do that.
 
         - Import the security certificate
             - From the `SteamVRLauncher_1.1.17.0_x86_x64.cer` file unziped in step 1, right click the .cer file and select `Install Certificate`
-            - On the Install Certificate dialog, Select Local Machine, then click Next
+            - On the Install Certificate dialog, Select `Local Machine`, then click Next
             - Select the radio button `Place all certificates in the following store`
                 - select `Trusted Root Certification Authorities`, click OK.
             - Click Next, then Finish.
