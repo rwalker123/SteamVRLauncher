@@ -11,8 +11,8 @@ You have two choices to install:
 you know how to do that.
 - If you don't want to build the code yourself.
     1. download the .zip file from the Release tab and unzip it. The zip file contains two files, the certificate needed in the next step and the App bundle.
-    1. Follow these instructions to side load App:  https://docs.microsoft.com/en-us/windows/application-management/sideload-apps-in-windows-10
-
+    1. Follow these instructions to side load App: https://docs.microsoft.com/en-us/windows/application-management/sideload-apps-in-windows-10#how-do-i-sideload-an-app-on-desktop
+    
 ## Running the App
 Once installed, you will see an icon in the Recently Added section of the 
 Start Menu. If you don't see the Steam VR Launcher App, the App isn't installed. If the App installed, you can startup Windows Mixed Reality and the App will show up when you view `All Apps` after pressing the Windows key on your controller. That's it, just select it and you can pin it to your environment!
