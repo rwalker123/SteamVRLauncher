@@ -31,6 +31,7 @@ you know how to do that.
             - change to the directory you unziped the files. For example, Normally files will go into your downloads directory, you may have even unzipped into that directory, in that case, you would issue the following command:
                 `cd \users\{your username}\Downloads\{your unzip directory}`
             - From that directory type: `powershell Add-AppxPackage SteamVRLauncher_1.1.17.0_x86_x64.appxbundle`
+                - NOTE: If you get an error about missing dependencies, see this issue: https://github.com/rwalker123/SteamVRLauncher/issues/1.
             - That's it, the app should be installed.
 
 
